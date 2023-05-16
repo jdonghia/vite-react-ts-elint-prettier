@@ -19,5 +19,5 @@ module.exports = {
     project: "./tsconfig.json",
   },
   plugins: ["react", "@typescript-eslint", "prettier"],
-  rules: { "react/react-in-jsx-scope": 0 },
+  rules: { "react/react-in-jsx-scope": 0, "import/prefer-default-export": 0 },
 };
